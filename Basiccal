@@ -1,0 +1,19 @@
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+opr = input("Type of operation: ")
+
+if opr == "+":
+    result = float(a) + float(b)
+    print(result)
+elif opr == "-":
+    result = float(a) + float(b)
+    print(result)
+elif opr == "*":
+    result = float(a) * float(b)
+    print(result)
+elif opr == "/":
+    result = float(a) / float(b)
+    print(result)
+else:
+    print("invalid operator!")
+
